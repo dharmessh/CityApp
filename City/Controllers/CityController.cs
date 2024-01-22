@@ -26,8 +26,9 @@ namespace City.Controllers
             return new JsonResult(
                 new List<object>()
                 {
-                    new {Id =1, Name = "Dharmesh"},
-                    new {Id =2, Name = "Sonam"}
+                    new {Id =1, Name = "NewYork"},
+                    new {Id =2, Name = "Tokyo"},
+                    new {Id =2, Name = "Jamnagar"}
                 });
         }
 
